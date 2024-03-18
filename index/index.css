@@ -110,7 +110,10 @@ body {
     /* border: 2px red dashed; */
 }
 
-video {
+
+/* ------- START SAVE FOR LATER --------------------------- */
+
+/* video {
   position: fixed;
   z-index: -1;
   animation-delay: 10s;
@@ -127,9 +130,12 @@ video {
   100% {
       opacity: 1;
   }
-}
+} */
+
+/* -------- END SAVE FOR LATER ----------------------------- */
 
 
+/* ======== NOTE: THIS SECTION IS DIFFERENT BC NO LOGO ===== */
 /* -------- START DO NOT ADJUST ---------------------------- */
 
 header {

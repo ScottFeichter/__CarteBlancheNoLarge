@@ -105,13 +105,15 @@
 
 body {
     background-color: #ffffff;
-    /* background-size: 500px; */
     background-repeat: no-repeat;
     background-position: center;
     /* border: 2px red dashed; */
 }
 
-video {
+
+/* ------- START SAVE FOR LATER --------------------------- */
+
+/* video {
   position: fixed;
   z-index: -1;
   animation-delay: 10s;
@@ -128,7 +130,11 @@ video {
   100% {
       opacity: 1;
   }
-}
+} */
+
+/* -------- END SAVE FOR LATER ----------------------------- */
+
+
 
 /* -------- START DO NOT ADJUST ---------------------------- */
 
@@ -140,7 +146,7 @@ header {
 }
 
 #logo {
-  padding: 1em;
+  padding: 1rem;
   /* border: 2px blue dashed; */
 }
 
@@ -179,21 +185,30 @@ nav a:hover {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  /* border: 2px red dotted; */
+  border: 2px red dotted;
 }
 
 h1 {
+
   color: rgb(0, 0, 0);
   font-family: 'Livvic', sans-serif;
   font-weight: 600;
-  font-size: 4em;
+  font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  letter-spacing: .25em;
+  letter-spacing: .25rem;
   /* border: 2px blue dotted; */
+}
+
+h2 {
+  font-family: 'Livvic', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  background-color: #ffffff;
+  text-align: center;
+  /* border: 2px blue dashed; */
 }
 
 /* --------- END DO NOT ADJUST ----------------------------- */

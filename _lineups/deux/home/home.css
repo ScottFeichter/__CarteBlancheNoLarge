@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+:root {
+      --livvic-thin {
+        font-family: "Livvic", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+
+      --livvic-extralight {
+        font-family: "Livvic", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+
+      --livvic-light {
+        font-family: "Livvic", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      --livvic-regular {
+        font-family: "Livvic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      --livvic-medium {
+        font-family: "Livvic", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      --livvic-semibold {
+        font-family: "Livvic", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+      --livvic-bold {
+        font-family: "Livvic", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      --livvic-black {
+        font-family: "Livvic", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+
+      --livvic-thin-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+
+      --livvic-extralight-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+
+      --livvic-light-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+
+      --livvic-regular-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+
+      --livvic-medium-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+
+      --livvic-semibold-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+
+      --livvic-bold-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      --livvic-black-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to left top, #7df3fc, #6be4ff, #77d2ff, #99bdff, #bda5f5);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 400;
+    font-size: 1000%;
+    margin: 10px 0 0 0;
+}
+
+#logo {
+  height: 20%;
+  margin-top: 2em;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Livvic', sans-serif;
+  margin: 1em 0 0 0;
+}
+
+#Bubble-Gum {
+  margin: 2em 0 0 0;
+}
+
+button {
+  font-family: 'Livvic', sans-serif;
+  font-size: 400%;
+  width: 300px;
+  height: 100px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  margin: .5em 0 0 0;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: #97caec;
+}

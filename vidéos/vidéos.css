@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+:root {
+      --livvic-thin {
+        font-family: "Livvic", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+
+      --livvic-extralight {
+        font-family: "Livvic", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+
+      --livvic-light {
+        font-family: "Livvic", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      --livvic-regular {
+        font-family: "Livvic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      --livvic-medium {
+        font-family: "Livvic", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      --livvic-semibold {
+        font-family: "Livvic", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+      --livvic-bold {
+        font-family: "Livvic", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      --livvic-black {
+        font-family: "Livvic", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+
+      --livvic-thin-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+
+      --livvic-extralight-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+
+      --livvic-light-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+
+      --livvic-regular-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+
+      --livvic-medium-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+
+      --livvic-semibold-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+
+      --livvic-bold-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      --livvic-black-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    /* background-size: 500px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 2px red dashed; */
+}
+
+/* -------- START DO NOT ADJUST ---------------------------- */
+
+
+header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* border: 2px blue dotted; */
+}
+
+#logo {
+  padding: 1em;
+  /* border: 2px blue dashed; */
+}
+
+nav {
+  display: flex;
+  width: 200em;
+  justify-content: center;
+  margin-right: 8em;
+  margin-left: -2.5em;
+  /* border: 2px blue dotted; */
+}
+
+nav a {
+  width: 5em;
+  margin: 2px;
+  /* border: 1px rgb(179, 179, 179) solid; */
+  font-family: 'Livvic', sans-serif;
+  font-size: 200%;
+  text-decoration: none;
+  background-color: none;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  transition: color .25s;
+  transition-timing-function: ease-in;
+  transition: background-color 1s;
+  transition-timing-function: ease-out;
+}
+
+nav a:hover {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Livvic', sans-serif;
+  font-weight: 600;
+  font-size: 4em;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .25em;
+  /* border: 2px blue dotted; */
+}
+
+/* --------- END DO NOT ADJUST ----------------------------- */
+
+
+figure {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Livvic', sans-serif;
+  /* border: 2px blue dashed; */
+}
+
+
+
+figcaption {
+  display: block;
+  font-size: 2em;
+  margin-bottom: 1em;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: 'Livvic', sans-serif;
+  /* border: 2px blue dashed; */
+}
+
+#vidGallery {
+  display: grid;
+  grid-template-areas:
+  'vidTL vidTR'
+  'vidBL vidBR';
+  column-gap: 1em;
+  row-gap: 6em;
+  margin-top: 4em;
+  padding: 1em;
+  /* border: 2px green dotted; */
+}
+
+#vidTL { grid-area: vidTL; }
+#vidTR { grid-area: vidTR; }
+#vidBL { grid-area: vidBL; }
+#vidBR { grid-area: vidBR; }
+
+#vidGallery video {
+  width: 30em;
+  height: 16em;
+  border-radius: 25px;
+  font-family: 'Livvic', sans-serif;
+  animation: fadeInAnimation ease-in 1s;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

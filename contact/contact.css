@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+:root {
+      --livvic-thin {
+        font-family: "Livvic", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+
+      --livvic-extralight {
+        font-family: "Livvic", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+
+      --livvic-light {
+        font-family: "Livvic", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      --livvic-regular {
+        font-family: "Livvic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      --livvic-medium {
+        font-family: "Livvic", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      --livvic-semibold {
+        font-family: "Livvic", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+      --livvic-bold {
+        font-family: "Livvic", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      --livvic-black {
+        font-family: "Livvic", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+
+      --livvic-thin-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+
+      --livvic-extralight-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+
+      --livvic-light-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+
+      --livvic-regular-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+
+      --livvic-medium-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+
+      --livvic-semibold-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+
+      --livvic-bold-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      --livvic-black-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    /* background-size: 500px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 2px red dashed; */
+}
+
+video {
+  position: fixed;
+  z-index: -1;
+  animation-delay: 10s;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+/* -------- START DO NOT ADJUST ---------------------------- */
+
+header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* border: 2px blue dotted; */
+}
+
+#logo {
+  padding: 1em;
+  /* border: 2px blue dashed; */
+}
+
+nav {
+  display: flex;
+  width: 200em;
+  justify-content: center;
+  margin-right: 8em;
+  margin-left: -2.5em;
+  /* border: 2px blue dotted; */
+}
+
+nav a {
+  width: 5em;
+  margin: 2px;
+  /* border: 1px rgb(179, 179, 179) solid; */
+  font-family: 'Livvic', sans-serif;
+  font-size: 200%;
+  text-decoration: none;
+  background-color: none;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  transition: color .25s;
+  transition-timing-function: ease-in;
+  transition: background-color 1s;
+  transition-timing-function: ease-out;
+}
+
+nav a:hover {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Livvic', sans-serif;
+  font-weight: 600;
+  font-size: 4em;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .25em;
+
+  /* border: 2px blue dotted; */
+}
+
+/* --------- END DO NOT ADJUST ----------------------------- */
+
+
+figure {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Livvic', sans-serif;
+  /* border: 2px orange dotted; */
+}
+
+figcaption {
+  display: block;
+  font-size: 2em;
+  background-color: #ffffff;
+  text-align: center;
+  /* border: 2px blue dashed; */
+}
+
+#laurentContact {
+  padding: 20px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Livvic', sans-serif;
+  font-size: xx-large;
+  /* border: 2px blue dashed; */
+
+  animation-delay: 1s;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  transition: color .5s;
+  transition-timing-function: ease-in;
+  transition: background-color .5s;
+  transition-timing-function: ease-out;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+#laurentContact a {
+  text-decoration: none;
+  text-align: center;
+  color: #0000EE;
+
+  transition: color .25s;
+  transition-timing-function: ease-in;
+  transition: background-color .25s;
+  transition-timing-function: ease-out;
+}
+
+#laurentContact a:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+
+hr {
+  width: 80%;
+  margin: auto;
+
+  animation-delay: 1s;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  transition: color .5s;
+  transition-timing-function: ease-in;
+  transition: background-color .5s;
+  transition-timing-function: ease-out;
+}
+
+
+/* MAIL LIST */
+
+
+#mailListForm {
+  margin-top: 2em;
+  /* margin-bottom: 2em; */
+
+  animation-delay: 1s;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  transition: color .5s;
+  transition-timing-function: ease-in;
+  transition: background-color .5s;
+  transition-timing-function: ease-out;
+}
+
+
+#join {
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2.5em;
+  /* border: 2px black dotted; */
+}
+
+
+input[type=text], input[type=submit] {
+  width: 25%;
+  padding: 12px;
+  margin: 1em;
+  display: inline-block;
+  border: 1px solid #2a2a2a;
+  font-family: 'Livvic', sans-serif;
+  font-size: large;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  font-family: 'Livvic', sans-serif;
+  font-weight: 460;
+  background-color: #0000EE;
+  color: white;
+  border: 1px solid #0000EE;
+
+  transition: color .25s;
+  transition-timing-function: ease-in;
+  transition: background-color .25s;
+  transition-timing-function: ease-out;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  /* border: 1px solid #0000EE; */
+}
+
+
+/* SOCIAL */
+
+#social {
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+
+  animation-delay: 1s;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  transition: color .5s;
+  transition-timing-function: ease-in;
+  transition: background-color .5s;
+  transition-timing-function: ease-out;
+}
+
+#socialContainer {
+  margin-top: .5em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10em;
+  /* border: 2px brown dotted; */
+
+  animation-delay: 1s;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  transition: color .5s;
+  transition-timing-function: ease-in;
+  transition: background-color .5s;
+  transition-timing-function: ease-out;
+}
+
+#socialContainer .fa {
+  font-size: 6em;
+  text-align: center;
+  text-decoration: none;
+
+  transition: color .25s;
+  transition-timing-function: ease-in;
+  transition: background-color .25s;
+  transition-timing-function: ease-out;
+}
+
+#socialContainer .fa:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}

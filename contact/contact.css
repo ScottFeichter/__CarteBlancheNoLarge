@@ -209,6 +209,7 @@ figure {
 }
 
 figcaption {
+  font-family: 'Livvic', sans-serif;
   display: block;
   font-size: 2em;
   background-color: #ffffff;
@@ -217,6 +218,7 @@ figcaption {
 }
 
 #laurentContact {
+  font-family: 'Livvic', sans-serif;
   padding: 20px;
   margin-top: 1em;
   margin-bottom: 2em;
@@ -248,7 +250,12 @@ figcaption {
   }
 }
 
+#laurentPhone {
+  font-family: 'Livvic', sans-serif;
+}
+
 #laurentContact a {
+  font-family: 'Livvic', sans-serif;
   text-decoration: none;
   text-align: center;
   color: #0000EE;
@@ -352,6 +359,8 @@ input[type=submit]:hover {
 #social {
   margin-top: 1.5em;
   margin-bottom: .5em;
+
+  font-family: 'Livvic', sans-serif;
 
   animation-delay: 1s;
   animation: fadeInAnimation ease 2s;

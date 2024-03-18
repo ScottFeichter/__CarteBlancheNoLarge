@@ -148,22 +148,23 @@ nav {
   display: flex;
   width: 200em;
   justify-content: center;
-  margin-right: 8em;
-  margin-left: -2.5em;
+  margin: auto;
+  padding-right: 4rem;
   /* border: 2px blue dotted; */
 }
 
 nav a {
-  width: 5em;
+  width: 10rem;
   margin: 2px;
-  /* border: 1px rgb(179, 179, 179) solid; */
   font-family: 'Livvic', sans-serif;
-  font-size: 200%;
+  font-size: 2rem;
   text-decoration: none;
   background-color: none;
   border-radius: 5px;
   color: black;
   text-align: center;
+  /* border: 1px rgb(179, 179, 179) solid; */
+
   transition: color .25s;
   transition-timing-function: ease-in;
   transition: background-color 1s;
@@ -180,6 +181,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* border: 2px red dotted; */
 }
 
 h1 {
@@ -191,7 +193,6 @@ h1 {
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   letter-spacing: .25em;
-
   /* border: 2px blue dotted; */
 }
 
@@ -199,13 +200,13 @@ h1 {
 
 
 figure {
-  padding: 1em;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Livvic', sans-serif;
-  /* border: 2px orange dotted; */
+  border: 2px orange dotted;
 }
 
 figcaption {

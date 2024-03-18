@@ -129,6 +129,9 @@ video {
   }
 }
 
+
+/* -------- START DO NOT ADJUST ---------------------------- */
+
 header {
   display: flex;
   justify-content: left;
@@ -152,7 +155,7 @@ nav {
 }
 
 nav a {
-  width: 5em;
+  width: 10rem;
   margin: 2px;
   /* border: 1px rgb(179, 179, 179) solid; */
   font-family: 'Livvic', sans-serif;
@@ -162,6 +165,7 @@ nav a {
   border-radius: 5px;
   color: black;
   text-align: center;
+
   transition: color .25s;
   transition-timing-function: ease-in;
   transition: background-color 1s;
@@ -215,36 +219,38 @@ h1 {
   /* border: 2px blue dotted; */
 }
 
+/* --------- END DO NOT ADJUST ----------------------------- */
 
-figure {
+#audioContainer {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-family: 'Livvic', sans-serif;
+  /* border: 2px orange dotted; */
 }
 
-figcaption {
+#audioContainer h2 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   background-color: #ffffff;
   border-radius: 25px;
   /* width: 14rem; */
   text-align: center;
-
+  font-weight: normal;
 }
 
-figure audio {
+#audioContainer audio {
   width: 40rem;
   background-color: #ffffff;
   border-radius: 25px;
   margin-bottom: .5rem;
 }
 
-figure a {
+#audioContainer a {
   background-color: #ffffff;
-  border-radius: 15px;
+  border-radius: 20px;
   font-family: 'Livvic', sans-serif;
   font-size: .8rem;
   color: black;
@@ -258,7 +264,7 @@ figure a {
   /* border: 2px blue dashed; */
 }
 
-figure a:hover {
+#audioContainer a:hover {
   background-color: rgb(0, 0, 0);
   color: #ffffff;
 }
